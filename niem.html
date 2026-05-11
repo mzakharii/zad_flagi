@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiere</title>
+    <style>
+        .flagi{
+            height:100px;
+            width: 150px;
+            border: solid black 2px;
+            display:inline-block;
+        }
+        img{
+            position:relative;
+            height:50px;
+            width: 100px;
+            top: -40px;
+            animation: anim 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        #polski{
+            background: linear-gradient(to top, red 50px, white 50px);
+        }
+        #niemiecki{
+            background: linear-gradient(to top, yellow 33px, red 33px, red 66px, black 66px );
+        }
+        #francuski{
+            background: linear-gradient(to right, blue 50px, white 50px, white 100px, red 100px);
+        }
+        @keyframes anim {
+            from{
+                left:0px;
+            }
+            to{
+                left: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="flagi">
+        <p>Sprache auswählen:</p>
+        <a href="index.html"><p class="flagi" id="polski"></p></a>
+        <a href="niem.html"><p class="flagi" id="niemiecki"></p></a>
+        <a href="fran.html"><p class="flagi" id="francuski"></p></a>
+        <img src="stralka.png" alt="strzalka">     
+    </div>
+    <div id="main">
+        <h1>Die beliebtesten Haustiere in Polen</h1>
+        <h2>1. Hund</h2>
+        <p>Hunde genießen in Polen einen besonderen Platz im Herzen, was auf eine tief verwurzelte Tradition zurückzuführen ist, sie als treue Begleiter und Beschützer des Hauses zu betrachten. Die Entscheidung für einen Hund bedeutet die größte Umstellung im Leben, die man sich für ein Haustier anschafft, denn sie erfordert Konsequenz, ausreichend Bewegung und ein hohes Maß an Engagement für den Aufbau einer engen Beziehung. In polnischen Städten und Dörfern dienen Hunde als Anreiz für tägliche Spaziergänge, was sich positiv auf die Gesundheit der Besitzer auswirkt, und ihre Anwesenheit ist oft entscheidend für ein Gefühl der Sicherheit und den Stressabbau.</p>
+        <h2>2. Katze</h2>
+        <p>Die Katze steht an zweiter Stelle der beliebtesten Haustiere und ist damit die ideale Wahl für alle, die Ruhe und Entspannung suchen, aber auch für diejenigen, die ein geschäftiges Stadtleben führen. Ihre Präsenz in polnischen Haushalten verdankt sie ihrer großen Anpassungsfähigkeit: Katzen kommen selbst in kleinen Wohnungen gut zurecht und benötigen keinen Auslauf – ein großer Vorteil gegenüber Hunden. Die moderne Katzenhaltung in Polen hat sich hin zu einem vollständig häuslichen Lebensstil entwickelt. Immer mehr Besitzer lassen ihre Tiere nicht mehr frei im Freien herumlaufen und sorgen für deren Sicherheit, indem sie Netze an Fenstern und Balkonen anbringen.</p>
+        <h2>3. Fisch</h2>
+        <p>Aquarienfische sind in Polen das drittbeliebteste Haustier und stellen eine einzigartige Verbindung von Naturverbundenheit und Inneneinrichtung dar. Aquarien werden vor allem wegen ihrer beruhigenden Wirkung auf die Bewohner geschätzt, und Fische sind ideale Begleiter für Allergiker, da sie weder Tierhaare noch Pollen verbreiten. Einfache Aquarienschalen werden in polnischen Haushalten immer seltener und durch moderne Aquariensysteme mit fortschrittlicher Filterung, Belüftung und LED-Beleuchtung ersetzt, die die Schaffung eines stabilen Ökosystems ermöglichen.</p>
+        <h2>4. Vögel</h2>
+        <p>Vögel, allen voran Wellensittiche und Nymphensittiche, sind in polnischen Haushalten besonders beliebt. Sie werden von Menschen gewählt, die einen intelligenten und interaktiven Begleiter suchen, der nicht häufige Spaziergänge benötigt. Ihre Beliebtheit beruht auf ihrem faszinierenden Wesen und der Fähigkeit mancher Arten, die menschliche Sprache und Umgebungsgeräusche nachzuahmen, wodurch eine enge Bindung zwischen Tier und Halter entsteht. Im Gegensatz zu Hunden oder Katzen bringen Papageien viel Energie, Bewegung und ein unverwechselbares Gezwitscher ins Haus, was für viele Menschen ein Zeichen für ein lebendiges und fröhliches Zuhause ist.</p>
+        <h2>5. Kaninchen</h2>
+        <p>Hauskaninchen runden die Liste der beliebtesten Haustiere ab und werden von Menschen gewählt, die einen ruhigen, aber dennoch unglaublich charmanten und sauberen Begleiter suchen. Der Mythos, Kaninchen seien ideale Geschenke für kleine Kinder, hält sich in der polnischen Gesellschaft hartnäckig, doch das Bewusstsein der Halter wächst. Immer mehr Kaninchen werden als Tiere wahrgenommen, die spezielle tierärztliche Betreuung und einen sanften Umgang benötigen. Kaninchen können eine enge Bindung zu Menschen aufbauen, auf ihren Namen reagieren und sich freudig am Familienleben beteiligen, vorausgesetzt, man gibt ihnen genügend Zeit, sich an sie zu gewöhnen.</p>
+    </div>
+</body>
+</html>

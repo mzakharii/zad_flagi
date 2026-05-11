@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaux</title>
+    <style>
+        .flagi{
+            height:100px;
+            width: 150px;
+            border: solid black 2px;
+            display:inline-block;
+        }
+        img{
+            position:relative;
+            height:50px;
+            width: 100px;
+            top: -40px;
+            animation: anim 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        #polski{
+            background: linear-gradient(to top, red 50px, white 50px);
+        }
+        #niemiecki{
+            background: linear-gradient(to top, yellow 33px, red 33px, red 66px, black 66px );
+        }
+        #francuski{
+            background: linear-gradient(to right, blue 50px, white 50px, white 100px, red 100px);
+        }
+        @keyframes anim {
+            from{
+                left:0px;
+            }
+            to{
+                left: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="flagi">
+        <p>Sélectionnez la langue :</p>
+        <a href="index.html"><p class="flagi" id="polski"></p></a>
+        <a href="niem.html"><p class="flagi" id="niemiecki"></p></a>
+        <a href="fran.html"><p class="flagi" id="francuski"></p></a>
+        <img src="stralka.png" alt="strzalka">     
+    </div>
+    <div id="main">
+        <h1>Les animaux de compagnie les plus populaires en Pologne</h1>
+        <h2>1. Chien</h2>
+        <p>Les chiens occupent une place prépondérante dans le cœur des Polonais, s'appuyant sur une tradition profondément ancrée qui les considère comme les compagnons les plus fidèles et les protecteurs du foyer. Adopter un chien représente le plus grand changement de mode de vie pour un animal de compagnie, car cela exige de la constance, de l'activité physique et un engagement important pour tisser des liens. Dans les villes et les villages polonais, les chiens incitent aux promenades quotidiennes, ce qui a un impact positif sur la santé de leurs maîtres, et leur présence est souvent essentielle pour un sentiment de sécurité et une réduction du stress.</p>
+        <h2>2. Chat</h2>
+        <p>Le chat occupe la deuxième place en termes de popularité, ce qui en fait un choix idéal pour ceux qui apprécient le calme et la tranquillité, ainsi que pour ceux qui mènent une vie citadine trépidante. Sa présence dans les foyers polonais s'explique par la grande adaptabilité de cet animal : les chats s'acclimatent bien à la vie en appartement, même petit, et n'ont pas besoin de promenades, un avantage considérable par rapport aux chiens. En Pologne, l'approche contemporaine des soins aux chats a évolué vers un mode de vie entièrement centré sur le domicile : de plus en plus de propriétaires choisissent de ne pas laisser leurs animaux errer librement à l'extérieur, assurant leur sécurité en installant des filets de protection autour des fenêtres et des balcons.</p>
+        <h2>3. Poisson</h2>
+        <p>Les poissons d'aquarium sont le troisième animal de compagnie le plus populaire en Pologne, alliant harmonieusement passion pour la nature et décoration intérieure. Les aquariums sont appréciés pour leur effet apaisant sur les membres du foyer et parce que les poissons sont des compagnons idéaux pour les personnes allergiques, car ils ne transmettent ni squames ni pollen. Les aquariums traditionnels en forme de bocal se font de plus en plus rares dans les foyers polonais, remplacés par des aquariums modernes équipés de systèmes de filtration, d'aération et d'éclairage LED performants, permettant la création d'un écosystème stable.</p>
+        <h2>4. Oiseaux</h2>
+        <p>Les oiseaux, parmi lesquels les perruches ondulées et les calopsittes sont les plus populaires dans les foyers polonais, sont plébiscités par ceux qui recherchent un compagnon intelligent et interactif ne nécessitant pas de promenades fréquentes. Leur popularité tient à leur nature attachante et à la capacité de certaines espèces à imiter la parole humaine et les sons de l'environnement, favorisant ainsi un lien fort entre l'animal et son maître. Contrairement aux chiens ou aux chats, les perroquets apportent beaucoup d'énergie, de mouvement et un bavardage caractéristique à la maison, ce qui, pour beaucoup, est synonyme de foyer vivant et joyeux.</p>
+        <h2>5. Lapin</h2>
+        <p>Les lapins domestiques complètent la liste des animaux de compagnie les plus populaires, plébiscités par ceux qui recherchent un compagnon calme, mais aussi incroyablement charmant et propre. Si le mythe selon lequel les lapins sont des cadeaux idéaux pour les jeunes enfants persiste en Pologne, la sensibilisation des propriétaires progresse et ces animaux sont de plus en plus perçus comme nécessitant des soins vétérinaires spécialisés et une manipulation douce. Les lapins peuvent tisser des liens forts avec les humains, répondre à leur nom et participer activement à la vie du foyer, à condition de leur laisser le temps de se familiariser avec eux.</p>
+    </div>
+</body>
+</html>

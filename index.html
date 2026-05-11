@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zwierzęta</title>
+    <style>
+        .flagi{
+            height:100px;
+            width: 150px;
+            border: solid black 2px;
+            display:inline-block;
+        }
+        img{
+            position:relative;
+            height:50px;
+            width: 100px;
+            top: -40px;
+            animation: anim 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        #polski{
+            background: linear-gradient(to top, red 50px, white 50px);
+        }
+        #niemiecki{
+            background: linear-gradient(to top, yellow 33px, red 33px, red 66px, black 66px );
+        }
+        #francuski{
+            background: linear-gradient(to right, blue 50px, white 50px, white 100px, red 100px);
+        }
+        @keyframes anim {
+            from{
+                left:0px;
+            }
+            to{
+                left: 50px;
+            }
+        }
+        body{min-width: 600px;}
+    </style>
+</head>
+<body>
+    <div id="flagi">
+        <p>Wybierz język:</p>
+        <a href="index.html"><p class="flagi" id="polski"></p></a>
+        <a href="niem.html"><p class="flagi" id="niemiecki"></p></a>
+        <a href="fran.html"><p class="flagi" id="francuski"></p></a>
+        <img src="stralka.png" alt="strzalka">     
+    </div>
+    <div id="main">
+        <h1>Najpopularniejsze zwierzęta domowe w Polsce</h1>
+        <h2>1. Pies</h2>
+        <p>Pies zajmuje absolutnie pierwsze miejsce w sercach Polaków, co wynika z głęboko zakorzenionej tradycji traktowania go jako najwierniejszego towarzysza i obrońcy domu. Decyzja o przygarnięciu psa wiąże się z największą zmianą stylu życia spośród wszystkich zwierząt domowych, ponieważ wymaga on od opiekuna systematyczności, aktywności fizycznej i poświęcenia sporej ilości czasu na budowanie relacji. W polskich miastach i wsiach pies pełni funkcję motywatora do codziennych spacerów, co pozytywnie wpływa na zdrowie właścicieli, a jego obecność jest często kluczowa dla poczucia bezpieczeństwa i redukcji stresu.</p>
+        <h2>2. Kot</h2>
+        <p>Kot zajmuje drugie miejsce w rankingu popularności, będąc idealnym wyborem dla osób ceniących spokój oraz dla tych, którzy prowadzą intensywny tryb życia w mieście. Jego obecność w polskich domach wynika z dużej elastyczności tego zwierzęcia, ponieważ koty świetnie adaptują się do życia nawet w niewielkich mieszkaniach i nie wymagają wyprowadzania na spacery, co jest ich ogromną przewagą nad psami. Współczesne podejście do opieki nad kotem w Polsce ewoluowało w stronę pełnej domowości – coraz więcej opiekunów rezygnuje z wypuszczania pupili samopas na zewnątrz, dbając o ich bezpieczeństwo poprzez osiatkowanie okien i balkonów.</p>
+        <h2>3. Ryby</h2>
+        <p>Ryby akwariowe zajmują trzecie miejsce wśród najpopularniejszych zwierząt domowych w Polsce, stanowiąc unikalne połączenie hobby przyrodniczego z dekoracją wnętrz. Akwarystyka jest ceniona przede wszystkim za swój uspokajający wpływ na domowników oraz fakt, że ryby są idealnymi towarzyszami dla alergików, ponieważ nie roznoszą sierści ani pyłków. W polskich domach coraz rzadziej spotyka się prymitywne kule, które zastępowane są przez nowoczesne zestawy akwariowe z zaawansowanymi systemami filtracji, napowietrzania i oświetlenia LED, co pozwala na stworzenie stabilnego ekosystemu.</p>
+        <h2>4. Ptaki</h2>
+        <p>Ptaki, wśród których w polskich domach królują przede wszystkim papużki faliste oraz nimfy, są wybierane przez osoby poszukujące inteligentnego i interaktywnego towarzysza, który nie wymaga wychodzenia na spacery. Ich popularność wynika z fascynującego charakteru oraz zdolności niektórych gatunków do naśladowania ludzkiej mowy i dźwięków otoczenia, co buduje silną więź między zwierzęciem a właścicielem. W przeciwieństwie do psów czy kotów, papugi wprowadzają do mieszkania dużo energii, ruchu i charakterystycznego gwaru, co dla wielu osób jest synonimem żywego i wesołego domu.</p>
+        <h2>5. Królik</h2>
+        <p>Króliki domowe zamykają listę najpopularniejszych zwierząt, będąc wyborem osób, które szukają cichego, ale niezwykle uroczego i czystego towarzysza. W polskim społeczeństwie wciąż pokutuje mit, że są to idealne prezenty dla małych dzieci, jednak świadomość właścicieli rośnie i coraz częściej postrzega się je jako zwierzęta wymagające specjalistycznej opieki weterynaryjnej oraz dużej delikatności w obchodzeniu się z nimi. Królik potrafi nawiązać silną więź z człowiekiem, reagując na swoje imię i chętnie uczestnicząc w życiu domowników, o ile zapewni mu się odpowiedni czas na oswojenie.</p>
+    </div>
+</body>
+</html>
